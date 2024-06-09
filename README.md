@@ -1,6 +1,6 @@
-# UOC Boilerplate
+# Food Wars
 
-UOC Boilerplate is a starter template for the HTML and CSS Tools courses from the [Master's Program in Multimedia Applications](https://estudis.uoc.edu/ca/masters-universitaris/aplicacions-multimedia/presentacio) and the [Master's Program in Web App and Website Development](https://estudis.uoc.edu/ca/masters-universitaris/desenvolupament-llocs-aplicacions-web/presentacio) at the [Universitat Oberta de Catalunya](https://www.uoc.edu). It aims to provide a basic, modern frontend web development starter pack based on Parcel and including a Sass compiler, an ES6 transpiler, minifiers, an image transformer, and development tools.
+Este proyecto web, desarrollado como parte de la asignatura de Herramientas II, representa la aplicación de un workflow moderno en el desarrollo de sitios web. Utilizando como base el uoc-boilerplate, hemos integrado las últimas tecnologías y mejores prácticas para ofrecer una experiencia de desarrollo eficiente y robusta. Esta web desarrollada con Tailwind CSS y siguiendo el paradigma de Atomic CSS, es una reinterpretación de dos páginas del sitio [Food Wars](https://food-wars1.netlify.app/); cuya web original está desarrollada con CSS Grid y Bootstrap.
 
 This is the 3.x version of UOC Boilerplate, available since the UOC 2020-2 semester.
 
