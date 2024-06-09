@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-left {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nav-right .nav-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-right .nav-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.header {
+    text-align: center;
+    padding: 180px 20px;
+    background-color: #fff;
+}
+
+.header-title {
+    color: #000;
+    margin: 0;
+}
+
+.header-subtitle {
+    color: #808080;
+    margin: 0;
+}
+
+.image-section {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.recipes-section {
+    padding: 20px;
+}
+
+.section-title {
+    text-align: center;
+    color: #000;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: #808080;
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    flex-basis: calc(33% - 40px);
+    box-sizing: border-box;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.card-title {
+    margin: 0;
+    color: #000;
+}
+
+.card-author {
+    margin: 5px 0 0 0;
+    color: #000;
+}
+
+.card-review {
+    margin: 5px 0 0 0;
+    color: #808080;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+.footer-left {
+    font-weight: bold;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.footer-column {
+    margin-right: 20px;
+}
+
+.footer-title {
+    margin: 0 0 10px 0;
+    color: #000;
+}
+
+.footer-item {
+    margin: 5px 0;
+    color: #808080;
+}

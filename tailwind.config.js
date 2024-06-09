@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        black: '#0c0c0c', // Negro
+        main: '#0c0c0c', // Negro
         primary: '#fafafa', // Blanco 
         secundary: '#ffd100', // Amarillo que acentua
-        $dark: '#343a40', // gris
+        dark: '#212429', // gris
       },
     },
   },
