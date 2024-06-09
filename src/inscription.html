@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <title>Food Wars</title>
+  </head>
+  <body>
+    <nav class="border-gray-200 color-dark pr-5 pl-5">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <i class="fa-solid fa-utensils text-white text-lg"></i>
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Food Wars</span>
+        </a>
+        <div class="bg-dark hidden w-full md:block md:w-auto flex space-x-4" id="navbar-default">
+          <a href="index.html" class="py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-700 md:p-0 dark:text-white md:dark:hover:text-yellow-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Inicio</a>
+          <a href="participantes.html" class=" py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-700 md:p-0 dark:text-white md:dark:hover:text-yellow-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Día de la batalla</a>
+          <a href="inscription.html" class=" py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-700 md:p-0 dark:text-white md:dark:hover:text-yellow-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Inscripción</a>
+        </div>
+      </div>
+    </nav>
+    <main class="main-form">
+      <div class="container-form">
+          <h1 class="custom-tittle text-primary">Formulario para la <span class="text-secundary">"Batalla de Fogones"</span></h1>
+          <form class="w-full max-w-sm">
+            <div class="md:items-center mb-6">
+                <label class=" text-primary  font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
+                  Nombre:
+                </label>
+                <input class="mg-top10 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-yellow-300" id="inline-full-name" type="text" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="md:items-center mb-6">
+                <label class=" text-primary  font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
+                  Apellidos:
+                </label>
+                <input class="mg-top10 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-yellow-300" id="inline-full-name" type="text" placeholder="Ingresa tus apellidos">
+            </div>
+            <div class="md:items-center mb-6">
+                <label class=" text-primary  font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
+                  Email:
+                </label>
+                <input class="mg-top10 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-yellow-300" id="inline-full-name" type="text" placeholder="Ingresa tu email">
+            </div>
+            <div class="md:items-center mb-6">
+                <label class=" text-primary  font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
+                  Télefono:
+                </label>
+                <input class="mg-top10 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-yellow-300" id="inline-full-name" type="text" placeholder="Ingresa tu teléfono">
+            </div>
+            <div class="md:items-center mb-6">
+              <label class="block text-gray-500 font-bold">
+                <input class="mr-2 leading-tight" type="checkbox">
+                <span class="text-sm text-primary">
+                  Acepto los términos y condiciones para participar en la <span class="text-secundary">"Batalla de Fogones"</span>
+                </span>
+              </label>
+            </div>
+            <div class="md:flex md:items-center">
+              <div>
+                <button class="w-80 custom-button">
+                  Enviar
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>

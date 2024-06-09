@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+    <title>Food Wars</title>
+<body>
+  <nav class="border-gray-200 color-dark pr-5 pl-5">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <i class="fa-solid fa-utensils text-white text-lg"></i>
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Food Wars</span>
+      </a>
+      <div class="color-dark hidden w-full md:block md:w-auto flex space-x-4" id="navbar-default">
+        <a href="index.html" class="py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-700 md:p-0 dark:text-white md:dark:hover:text-yellow-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Inicio</a>
+        <a href="participantes.html" class=" py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-700 md:p-0 dark:text-white md:dark:hover:text-yellow-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Día de la batalla</a>
+        <a href="inscription.html" class=" py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-700 md:p-0 dark:text-white md:dark:hover:text-yellow-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Inscripción</a>
+      </div>
+    </div>
+  </nav>
+    <div class="bg-black container-event text-white pt-10 p-10">
+        <main class="main-event max-w-2xl mx-auto pb-5">
+            <article class="mb-5">
+                <h1 class="custom-tittle">¡Prepárate para la <span class="text-yellow-500">"Batalla de Fogones"</span>!</h1>
+                <img src="assets/images/competition.jpeg" alt="Dos chefs colaborando juntos" class="w-full h-auto mb-4">
+                <p class="mb-4">La Batalla de Fogones es un evento culinario anual que reúne a chefs de renombre de todo el mundo para competir en un emocionante desafío de habilidades culinarias.</p>
+                <p class="mb-4">Este año, el evento se llevará a cabo en un lugar impresionante, rodeado de naturaleza y con una vista espectacular. Los competidores tendrán la oportunidad de demostrar su destreza en la cocina mientras compiten por el codiciado título de "Mejor Chef del Año".</p>
+                <blockquote class="p-2.5 italic border-l-4 border-yellow-500 mb-5">
+                    "La Batalla de Fogones es una oportunidad única para que los chefs muestren su creatividad y talento en un ambiente competitivo pero amistoso." - Chef Estrella
+                </blockquote>
+                <p class="mb-4">No te pierdas esta emocionante competición donde el aroma tentador de platos exquisitos se mezcla con la emoción de la competencia. ¡Reserva tu lugar ahora y únete a nosotros en este evento gastronómico inolvidable!</p>
+                <p class="mb-4">El evento contará con una amplia variedad de actividades, incluyendo demostraciones culinarias en vivo, degustaciones de platos gourmet y la oportunidad de conocer y saludar a algunos de los chefs más destacados del mundo.</p>
+                <p class="mb-4">¡Ven y únete a nosotros para disfrutar de una experiencia gastronómica única que no olvidarás!</p>
+            </article>
+            
+            <section class="photos flex justify-between mb-6">
+                <figure>
+                    <img src="assets/images/plato.jpeg" alt="Foto plato ganador" class="max-w-1/2 h-auto mb-4">
+                    <figcaption class="text-center text-sm text-white">Plato ganador de la edición <span class="font-bold text-yellow-500">2023</span></figcaption>
+                </figure>
+            </section>
+            
+            <div class="event-info mt-10 p-5">
+                <h3 class="text-xl font-semibold mb-2.5">Fecha y Hora del Evento</h3>
+                <p class="text-yellow-500 mb-1"><strong>Fecha:</strong> 11 de junio de 2024</p>
+                <p class="text-yellow-500 mb-1"><strong>Hora:</strong> 18:00 - 21:00</p>
+                <p class="text-yellow-500 mb-1"><strong>Día:</strong> Martes</p>
+            </div>
+            <button type="button" id="" class="text-lg md:items-center custom-button mt-10" onclick="window.location.href='inscription.html'">¡Inscríbete ya!</button>
+        </main>
+    </div>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+</html>
